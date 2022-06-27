@@ -1,4 +1,4 @@
-<mxfile modified="2022-06-27T05:12:13.536Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="apVNfVPJgRs_tXGgzqKp" version="20.0.3" type="github">
+<mxfile modified="2022-06-27T05:56:15.298Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="V3wsE8UuGcDUv_z_VytK" version="20.0.3" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2595" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -211,6 +211,48 @@
         </mxCell>
         <mxCell id="-WoH30Uri09U5N2j0IdP-68" value="&lt;font style=&quot;font-size: 22px&quot;&gt;(b) Optimal solution&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="1490" y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="660" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-4" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Times New Roman&quot;&gt;One Time Slot&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;Quantum Node&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="790" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-6" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;u&gt;P1&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Collects information about requests in the network and tries to establish entanglement links&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;fillColor=default;strokeColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="199.5" width="310" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-8" value="&lt;b&gt;&lt;u&gt;P2: Routing&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Input: network topology and quantum requests&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Output: entanglement paths for individual&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; quantum requests&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;strokeColor=#FF9999;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-11" value="&lt;b&gt;&lt;u&gt;P3: Purification and resource allocation&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Input: entanglement paths and quantum requests.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output:&amp;nbsp;purification and resource allocation&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;solutions&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;strokeColor=#FF9999;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-12" value="&lt;b&gt;&lt;u&gt;P4:&amp;nbsp;Establishing entanglement connections&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Input: entanglement paths and the result of P3&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;Output: entanglement connections.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;strokeColor=#7EA6E0;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="560" width="320" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-17" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="854.5" y="280" as="sourcePoint" />
+            <mxPoint x="854.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="854.5" y="400" as="sourcePoint" />
+            <mxPoint x="854.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kQtHEXxYmVUD9bqAbKc-21" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="854.5" y="520" as="sourcePoint" />
+            <mxPoint x="854.5" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
